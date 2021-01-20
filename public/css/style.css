@@ -14,20 +14,22 @@
     position: relative;
     height: 220px;
     text-align: center;
+    background-color: #0d0d0d;
 }
 .card-product .img-wrap img {
     max-height: 100%;
     max-width: 100%;
     object-fit: cover;
+    background-color: #fff;
 }
 .card-product .info-wrap {
     overflow: hidden;
     padding: 15px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #18d26e;
+    text-align: center;
 }
 .card-product .bottom-wrap {
     padding: 15px;
-    border-top: 1px solid #eee;
 }
 
 .label-rating { margin-right:10px;
@@ -36,8 +38,10 @@
     vertical-align: middle;
 }
 
-.card-product .price-old {
-    color: #999;
+.card-product {
+    background-color: #0d0d0d;
+    padding: 10px;
+    color: white;
 }
 body {
   font-family: "Open Sans", sans-serif;

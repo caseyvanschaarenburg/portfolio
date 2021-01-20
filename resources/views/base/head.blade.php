@@ -205,26 +205,25 @@ $posts = TCG\Voyager\Models\Post::all();
             <h2>Portfolio</h2>
             <p>My Works</p>
         </div>
+        <div class="row">
         @if (count($posts) > 0)
             @foreach ($posts as $post)
-                <div class="row">
                     <div class="col-md-4">
                         <figure class="card card-product">
                             <div class="img-wrap"><img src="{{$post->image}}"></div>
-                            <figcaption class="info-wrap">
+                            <div class="info-wrap">
                                 <div class="rating-wrap">
-                                    <div class="label-rating">{{$post->title}}</div><br><hr>
-                                    <div class="label-rating">{{$post->excerpt}}</div>
+                                    <div class="label-rating"><p style="color: #fff">{{$post->title}}</p></div>
                                 </div> <!-- rating-wrap.// -->
-                            </figcaption>
+                            </div>
                             <div class="bottom-wrap">
-                                <a href="" class="btn btn-sm btn-primary float-center">Go to project</a><!-- price-wrap.// -->
+                                <a href="" class="btn btn-md" style="background-color: #18d26e; margin-left: 29%">Go to project</a><!-- price-wrap.// -->
                             </div> <!-- bottom-wrap.// -->
                         </figure>
                     </div>
-                </div>
                     @endforeach
         @endif
+        </div>
     </div>
 </section><!-- End Portfolio Section -->
 
