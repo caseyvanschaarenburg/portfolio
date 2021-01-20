@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $posts = TCG\Voyager\Models\Post::all();
     return view('welcome');
 });
 
