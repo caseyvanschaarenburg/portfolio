@@ -2,7 +2,7 @@
 use TCG\Voyager\Models\Post;
 $posts = TCG\Voyager\Models\Post::all();
 ?>
-
+<link rel="stylesheet" href="/icofont/icofont.min.css">
 <body>
 <!-- ======= Header ======= -->
 <header id="header" class="header-tops">
