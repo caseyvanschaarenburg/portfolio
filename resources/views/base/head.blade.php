@@ -217,7 +217,7 @@ $posts = TCG\Voyager\Models\Post::all();
                                 </div> <!-- rating-wrap.// -->
                             </div>
                             <div class="bottom-wrap">
-                                <a href="" class="btn btn-md" style="background-color: #18d26e; margin-left: 29%">Go to project</a><!-- price-wrap.// -->
+                                <a href="{{$post->excerpt}}" class="btn btn-md" style="background-color: #18d26e; margin-left: 29%">Go to project</a><!-- price-wrap.// -->
                             </div> <!-- bottom-wrap.// -->
                         </figure>
                     </div>
