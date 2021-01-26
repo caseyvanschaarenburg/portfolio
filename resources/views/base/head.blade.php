@@ -44,7 +44,7 @@ $posts = TCG\Voyager\Models\Post::all();
 
         <div class="row">
             <div class="col-lg-4" data-aos="fade-right">
-                <img src="/img/me.jpg" class="img-fluid" alt="">
+                <img src="/img/me.jpg" class="img-fluid" alt="me">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Back-end Developer</h3>
@@ -311,6 +311,9 @@ $posts = TCG\Voyager\Models\Post::all();
 
     </div>
 </section><!-- End Contact Section -->
+<div class="credits">
+    Copyright © 2021 <a href="/">Casey</a> All Rights Reserved
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
