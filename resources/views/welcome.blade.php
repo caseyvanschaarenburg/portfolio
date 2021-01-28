@@ -4,7 +4,6 @@
                     @auth
                         <a href="{{ url('/admin') }}">Admin</a>
                     @else
-                        <a href="/admin">Login</a> |
                     @endauth
                 </div>
             @endif
