@@ -1,19 +1,18 @@
 <h1>preview : http://caseyvanschaarenburg.nl/</h1>
-
 <p>for install : </p>
 
 <p> 1. npm install <br>
 2. composer install <br>
 3. php artisan voyager:install <br>
 4. php artisan migrate (just to make sure)</p>
-
+<hr>
 
 <h3> for admin panel see : http://caseyvanschaarenburg.nl/admin</h3>
 
 <h3>This project uses voyager. check their documentation for more information : https://voyager-docs.devdojo.com/getting-started/installation</h3>
 
 
-
+<hr>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
