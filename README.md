@@ -8,10 +8,9 @@
 4. php artisan migrate (just to make sure)</p>
 
 
-
+<h3> for admin panel see : http://caseyvanschaarenburg.nl/admin</h3>
 
 <h3>This project uses voyager. check their documentation for more information : https://voyager-docs.devdojo.com/getting-started/installation</h3>
-<h3> for admin panel see : http://caseyvanschaarenburg.nl/admin</h3>
 
 
 
