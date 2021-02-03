@@ -2,11 +2,11 @@
 
 <p>for install : </p>
 
-<p>npm install <br>
-composer install</p>
-<p>composer install</p>
-<p>php artisan voyager:install</p>
-<p>php artisan migrate (just to make sure)</p>
+<p> 1. npm install <br>
+2. composer install <br>
+3. php artisan voyager:install <br>
+4. php artisan migrate (just to make sure)</p>
+
 
 
 
