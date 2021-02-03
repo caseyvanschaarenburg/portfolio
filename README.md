@@ -1,5 +1,5 @@
-<h1>preview : http://caseyvanschaarenburg.nl/</h1>
-<p>for install : </p>
+<h1>Preview : http://caseyvanschaarenburg.nl/</h1>
+<p>For install : </p>
 
 <p> 1. npm install <br>
 2. composer install <br>
@@ -7,7 +7,7 @@
 4. php artisan migrate (just to make sure)</p>
 <hr>
 
-<h3> for admin panel see : http://caseyvanschaarenburg.nl/admin</h3>
+<h3> For admin panel see : http://caseyvanschaarenburg.nl/admin</h3>
 
 <h3>This project uses voyager. check their documentation for more information : https://voyager-docs.devdojo.com/getting-started/installation</h3>
 
