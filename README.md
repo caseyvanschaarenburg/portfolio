@@ -2,7 +2,7 @@
 
 <p>for install : </p>
 
-<p>npm install
+<p>npm install <br>
 composer install</p>
 <p>composer install</p>
 <p>php artisan voyager:install</p>
